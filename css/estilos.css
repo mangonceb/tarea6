@@ -1,0 +1,29 @@
+
+ body {
+    display: block;
+    text-align: center;
+    background-color: #3f294d;
+}
+
+section {
+    border-radius: 5px;
+    border-style: inset;
+    background-color: white;
+    color: #3f294d;
+    margin: auto;
+    width: 20%;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+header {
+    margin-top: 20px;
+    color: white;
+}
+
+footer {
+    margin-top: 50px;
+    color: white;
+}
+
+

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>Conversión caracteres en chino</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Yo se escribir en chino con ñ y á acentuada</h1>
+        </header>
+        <section>
+            <article>
+                <h2>Escribir en chino</h2>
+            </article>
+            <article>
+                <p>Convertir de unos carácteres UNICODE en otros</p>
+                <!--El return devuelve al campo del input únicamente letras, sin caráceres especiales o números (Así además, permite borrar la cadena con delete
+                    )-->
+                <p style="text-indent: 30px;">Escribe <input type="text" onkeydown="return soloLetras(event);" id="entrada"></p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>CIPF Santa Catalina DAW curso 2020-2021</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
